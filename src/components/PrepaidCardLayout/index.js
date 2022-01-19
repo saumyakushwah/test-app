@@ -13,9 +13,9 @@ export default function PrepaidCardLayout() {
       <Banner />
       <FloatingButton />
       <div className="home-class">
-      {/* <div style={{ backgroundColor: "#2C1f53", padding: "120px 100px 20px 100px" }}> */}
+        {/* <div style={{ backgroundColor: "#2C1f53", padding: "120px 100px 20px 100px" }}> */}
         <SectionOne />
-        </div>
+      </div>
       {/* </div> */}
       <SectionTwo />
       <div style={{ backgroundColor: "#2C1f53", padding: "20px 100px" }}>
@@ -28,7 +28,13 @@ export default function PrepaidCardLayout() {
       <div style={{ backgroundColor: "#2C1F53" }}>
         <QuesComp
           ques="Say Goodbye!"
-          quesPara={<>For your conventional way of paying<br/> get prepaid cards and save your time <br/>and effort</>}
+          quesPara={
+            <>
+              For your conventional way of paying
+              <br /> get prepaid cards and save your time <br />
+              and effort
+            </>
+          }
           quesBtn="Get Started"
         />
       </div>

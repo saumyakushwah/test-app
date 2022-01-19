@@ -12,7 +12,9 @@ export default function ThirdGrid({ reverse, title, subTitle, titleImg }) {
       >
         <Col lg={12} order={reverse ? 1 : 0}>
           <div
-            className={`titles ${reverse ? "titles-reverse" : "titles-not-reverse"}`}
+            className={`titles ${
+              reverse ? "titles-reverse" : "titles-not-reverse"
+            }`}
             // style={{
             //   marginLeft: reverse ? "50px" : "",
             //   marginRight: reverse ? "" : "50px",

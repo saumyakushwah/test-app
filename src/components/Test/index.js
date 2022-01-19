@@ -1,11 +1,11 @@
 import { Button } from "antd";
 
-export default function Test (){
-  return(
+export default function Test() {
+  return (
     <div>
       <Button type="primary" block>
-      Primary
-    </Button>
+        Primary
+      </Button>
     </div>
-  )
+  );
 }

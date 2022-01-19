@@ -105,7 +105,7 @@
   padding: 0px 30px;
 }
 
-.ant-layout-content{
+.ant-layout-content {
   background-color: rgb(44, 31, 83);
   /* margin: 0 !important; */
 }
@@ -327,11 +327,11 @@
   margin-right: 50px;
 }
 
-.titles-reverse{
+.titles-reverse {
   margin-left: 50px;
 }
 
-.titles-not-reverse{
+.titles-not-reverse {
   margin-right: 50px;
 }
 
@@ -879,11 +879,11 @@
     margin-right: 0px !important;
   }
 
-  .titles-reverse{
+  .titles-reverse {
     margin-left: 0px;
   }
 
-  .titles-not-reverse{
+  .titles-not-reverse {
     margin-right: 0px;
   }
 

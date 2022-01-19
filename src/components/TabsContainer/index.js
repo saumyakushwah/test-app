@@ -30,7 +30,7 @@ export default function TabsContainer() {
             tab="All"
             key="1"
             style={{ height: "900px", padding: "80px" }}
-          > 
+          >
             <TabCards />
           </TabPane>
           <TabPane
@@ -40,17 +40,33 @@ export default function TabsContainer() {
           >
             <TabCards />
           </TabPane>
-          <TabPane tab="Messaging" key="3"
-            style={{ height: "2400px", padding: "80px" }}><TabCards />
+          <TabPane
+            tab="Messaging"
+            key="3"
+            style={{ height: "2400px", padding: "80px" }}
+          >
+            <TabCards />
           </TabPane>
-          <TabPane tab="E-Commerce" key="4"
-            style={{ height: "2400px", padding: "80px" }}><TabCards />
+          <TabPane
+            tab="E-Commerce"
+            key="4"
+            style={{ height: "2400px", padding: "80px" }}
+          >
+            <TabCards />
           </TabPane>
-          <TabPane tab="Marketing Automation" key="5"
-            style={{ height: "2400px", padding: "80px" }}><TabCards />
+          <TabPane
+            tab="Marketing Automation"
+            key="5"
+            style={{ height: "2400px", padding: "80px" }}
+          >
+            <TabCards />
           </TabPane>
-          <TabPane tab="Analytics" key="6"
-            style={{ height: "2400px", padding: "80px" }}><TabCards />
+          <TabPane
+            tab="Analytics"
+            key="6"
+            style={{ height: "2400px", padding: "80px" }}
+          >
+            <TabCards />
           </TabPane>
           <Search
             placeholder="input search text"
